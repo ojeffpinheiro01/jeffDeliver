@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 import com.mobile.jeffdeliver.entities.Order;
 import com.mobile.jeffdeliver.entities.OrderStatus;
 
-public class OrderDTO implements Serializable {
+public class OrderDTO implements Serializable{
 
 	private static final long serialVersionUID = 1L;
 
@@ -34,6 +34,7 @@ public class OrderDTO implements Serializable {
 		this.moment = moment;
 		this.status = status;
 	}
+
 	public OrderDTO(Order entity) {
 		id = entity.getId();
 		address = entity.getAddress();
@@ -41,8 +42,7 @@ public class OrderDTO implements Serializable {
 		longitude = entity.getLongitude();
 		moment = entity.getMoment();
 		status = entity.getStatus();
-		products = entity.getProducts().stream()
-				.map(x -> new ProductDTO(x)).collect(Collectors.toList());
+		products = entity.getProducts().stream().map(element -> new ProductDTO(element)).collect(Collectors.toList());
 	}
 
 	public Long getId() {
@@ -97,6 +97,5 @@ public class OrderDTO implements Serializable {
 		return products;
 	}
 	
-	
-	
+
 }
