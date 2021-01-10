@@ -25,6 +25,8 @@ public class ProductDTO implements Serializable{
 		this.description = description;
 		this.imageUri = imageUri;
 	}
+
+
 	public ProductDTO(Product entity) {
 		id = entity.getId();
 		name = entity.getName();
@@ -72,8 +74,6 @@ public class ProductDTO implements Serializable{
 	public void setImageUri(String imageUri) {
 		this.imageUri = imageUri;
 	}
-	
-	
 	
 	
 }
