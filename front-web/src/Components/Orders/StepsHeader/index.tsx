@@ -9,7 +9,7 @@ function StepsHeader() {
                         Selecione os produtos e a localização
                     </li>
                     <li>
-                    <span className="steps-number">1</span>
+                    <span className="steps-number">2</span>
                     Depois clique em <strong>"ENVIAR PEDIDO"</strong>
                     </li>
                 </ul>
