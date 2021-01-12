@@ -1,14 +1,14 @@
-import './style.css';
 import { useEffect, useState } from 'react';
-
 import StepsHeader from "./StepsHeader";
 import ProductsList from './ProductsList';
-import { Product } from './types';
+import { OrderLocationData, Product } from './types';
 import { fetchProducts } from '../../api';
 import OrderLocation from './OrderLocation';
+import './style.css';
 
 function Orders() {
 	const [products, setProducts] = useState<Product[]>([])
+	const [orderLocation, setOrderLocation] = useState<OrderLocationData>();
 	useEffect(() => {
 		window.scrollTo(0, 0);
 		fetchProducts()
@@ -18,13 +18,17 @@ function Orders() {
 
 
 	return (
-		<div className='orders-container'>
-			<div>
-                <StepsHeader/>
-				<ProductsList products={products} />
-				<OrderLocation />
-            </div>
-		</div>
+		<>
+			<div className='orders-container'>
+					<StepsHeader />
+					<ProductsList
+						products={products}
+					/>
+					<OrderLocation
+						onChangeLocation={(location) => setOrderLocation(location)}
+						/>
+			</div>
+		</>
 	);
 }
 
