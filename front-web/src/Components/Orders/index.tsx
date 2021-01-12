@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react';
+import { toast } from 'react-toastify'
 import StepsHeader from "./StepsHeader";
 import ProductsList from './ProductsList';
 import { OrderLocationData, Product } from './types';
-import { fetchProducts } from '../../api';
+import { fetchProducts, saveOrder } from '../../api';
 import OrderLocation from './OrderLocation';
-import './style.css';
 import OrderSummary from './OrderSummary';
 import { checkIsSelected } from './utils';
+import './style.css';
 
 function Orders() {
 	const [products, setProducts] = useState<Product[]>([])
@@ -19,7 +20,9 @@ function Orders() {
 		window.scrollTo(0, 0);
 		fetchProducts()
 			.then((response) => setProducts(response.data))
-			.catch((error) => console.log(error));
+			.catch(() => {
+				toast.warning('Erro ao listar os produtos')
+			});
 	}, []);
 	
 	const handleSelectProduct = (product: Product) => {
@@ -30,6 +33,32 @@ function Orders() {
 			setSelectedProducts(selected);
 		} else {
 			setSelectedProducts((previous) => [...previous, product]);
+		}
+	};
+
+	const handleSubmit = () => {
+		const productsIds = selectedProducts.map(({ id }) => ({ id }));
+		if (productsIds.length !== 0 && orderLocation !== undefined) {
+			const payload = {
+				...orderLocation!,
+				products: productsIds,
+			};
+
+			saveOrder(payload)
+				.then((response) => {
+					window.scrollTo(0, 0);
+					toast.error(`Pedido de Nº ${response.data.id} enviado com sucesso!`);
+					setSelectedProducts([]);
+					setOrderLocation(undefined);
+				})
+				.catch(() => {
+					toast.error('Erro ao enviar pedido!');
+				});
+		} else if (productsIds.length === 0) {
+			toast.warning('Selecione os produtos de seu pedido');
+			window.scrollTo(0, 0);
+		} else {
+			toast.warning('Digite o endereço de entrega para confirmar seu pedido');
 		}
 	};
 
@@ -48,7 +77,8 @@ function Orders() {
 						/>
 					<OrderSummary 
 						amount={selectedProducts.length}
-						totalPrice={totalPrice}  />
+						totalPrice={totalPrice}
+						onSubmit={handleSubmit}  />
 			</div>
 		</>
 	);
