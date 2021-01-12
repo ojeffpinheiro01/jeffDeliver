@@ -1,23 +1,23 @@
 import Footer from "../../Footer";
+import { formatPrice } from "../utils";
 
 type Props = {
 	amount: number;
 	totalPrice: number;
-	onSubmit: () => void;
 };
 
-function OrderSummary() {
+function OrderSummary({ amount, totalPrice }: Props) {
 	return (
 		<>
 			<div className='order-summary-container'>
 				<div className='order-summary-content'>
 					<div>
 						<span className='amount-selected-container'>
-							<strong className='amount-selected'>2</strong>
+							<strong className='amount-selected'>{amount}</strong>
 							<span>PEDIDOS SELECIONADOS</span>
 						</span>
 						<span className='order-summary-total'>
-							<strong className='amount-selected'>R$ 50,00</strong>
+							<strong className='amount-selected'>{formatPrice(totalPrice)}</strong>
 							<span>Valor Total</span>
 						</span>
 					</div>
