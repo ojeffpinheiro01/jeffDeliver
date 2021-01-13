@@ -24,14 +24,14 @@ function OrderDetails({ route }:Props) {
     }
 
     const handleConfirmDelivery = () => {
-        // confirmDelivery(order.id)
-        // .then(() => {
-        //     Alert.alert(`Pedido ${order.id} confirmado com sucesso!`);
-        //     navigation.navigate('Orders');
-        // })
-        // .catch(() => {
-        //     Alert.alert(`Houve um erro ao confirmar o pedido ${order.id}`);
-        // })
+        confirmDelivery(order.id)
+            .then(() => {
+                Alert.alert(`Pedido ${order.id} confirmado com sucesso!`);
+                navigation.navigate('Orders');
+            })
+            .catch(() => {
+                Alert.alert(`Houve um erro ao confirmar o pedido ${order.id}`);
+            })
     }
 
     const handleStartNavigation = () => {
