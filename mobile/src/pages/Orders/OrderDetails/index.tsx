@@ -46,6 +46,12 @@ function OrderDetails({ route }:Props) {
                 <RectButton style={styles.button}>
                     <Text style={styles.buttonText} onPress={handleStartNavigation}>INICIAR NAVEGAÇÃO</Text>
                 </RectButton>
+                <RectButton style={styles.button} onPress={handleConfirmDelivery}>
+                    <Text style={styles.buttonText}>CONFIRMAR ENTREGA</Text>
+                </RectButton>
+                <RectButton style={styles.button} onPress={handleOnCancel}>
+                    <Text style={styles.buttonText}>CANCELAR</Text>
+                </RectButton>
             </View>
         </>
     );
