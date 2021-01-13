@@ -13,13 +13,20 @@ function Orders() {
     const [isLoading, setIsLoading] = useState(false);
     const navigation = useNavigation();
     const isFocused = useIsFocused();
-    useEffect(() => {
+
+    const fetchData = () => {
         setIsLoading(true);
         fetchOrders()
             .then(response => setOrders(response.data))
             .catch(() => Alert.alert('Houve um erro ao buscar os pedidos!'))
             .finally(() => setIsLoading(false));
-    }, []);
+    }
+
+    useEffect(() => {
+        if(isFocused) {
+            fetchData();
+        }
+    }, [isFocused]);
     const handleOnPress = (order: Order) => {
         navigation.navigate('OrderDetails', {
             order
