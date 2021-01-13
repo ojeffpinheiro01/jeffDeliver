@@ -7,6 +7,7 @@ const Stack = createStackNavigator();
 
 import Home from './pages/Home';
 import Orders from './pages/Orders';
+import OrderDetails from './pages/Orders/OrderDetails';
 
 const Routes = () => {
     return(
@@ -21,6 +22,7 @@ const Routes = () => {
             >
                 <Stack.Screen name="Home" component={Home}/>
                 <Stack.Screen name="Orders" component={Orders}/>
+                <Stack.Screen name="OrderDetails" component={OrderDetails}/>
             </Stack.Navigator>
         </NavigationContainer>
     )
