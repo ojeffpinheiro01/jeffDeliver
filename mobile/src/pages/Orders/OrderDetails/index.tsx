@@ -35,7 +35,7 @@ function OrderDetails({ route }:Props) {
     }
 
     const handleStartNavigation = () => {
-        // Linking.openURL(`https://www.google.com/maps/dir/?api=1&travelmode=driving&dir_action=navigate&destination=${order.latitude},${order.longitude}`);
+        Linking.openURL(`https://www.google.com/maps/dir/?api=1&travelmode=driving&dir_action=navigate&destination=${order.latitude},${order.longitude}`);
     }
 
     return (
@@ -43,6 +43,9 @@ function OrderDetails({ route }:Props) {
             <Header />
             <View style={styles.container}>
                 <OrderCard order={order} />
+                <RectButton style={styles.button}>
+                    <Text style={styles.buttonText} onPress={handleStartNavigation}>INICIAR NAVEGAÇÃO</Text>
+                </RectButton>
             </View>
         </>
     );
@@ -72,6 +75,6 @@ const styles = StyleSheet.create({
       letterSpacing: -0.24,
       fontFamily: 'OpenSans_700Bold'
     }
-  });
+});
 
 export default OrderDetails;
