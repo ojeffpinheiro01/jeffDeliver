@@ -81,25 +81,25 @@ This project was developed with the following technologies:
 ---
 
 # :fire: How to use
-## :white_flag: Condições prévias
-Você precisa ter instalado:
+## :white_flag: Precondition
+You must have installed:
 
 - NodeJS
-- Package manager (NPM ou Yarn)
+- Package manager (NPM OR Yarn)
 
-## 💾 Clone esse repositório
+## 💾 Clone this repository
 
 ```bash
 $ git clone https://github.com/ojeffpinheiro01/jeffDeliver.git
 ```
 
-## 📁 Entre na pasta
+## 📁 Enter the folder
 
 ```bash
 $ cd jeffDeliver
 ```
 
-## 🔧 Instale as dependências
+## 🔧 Install the dependencies
 
 ```bash
 cd backend && yarn install
@@ -108,27 +108,27 @@ cd mobile && yarn install
 ```
 
 
-## 🌐 Rode o servidor
+## 🌐 Running the Server
 
-- Instale e configure o banco de dados postgreSQL
+- Install and configure the postgreSQL database
 
-- Importe como projeto Maven em sua IDE Java
+- Import as a Maven project into your Java IDE
 
-- Crie as tabelas com o código no arquivo data.sql em resources
+- Create the tables with the code in the data.sql file in resources
 
-- Preencha as informações dos arquivos application.properties
+- Fill in the information for the application.properties files
 
-- Execute como aplicação Spring Boot
+- Run as Spring Boot application
 
 
 ## :computer: Front-end WEB
-Entre na pasta
+Enter the folder
 
 ```bash
 $ cd front-web
 ```
 
-Rode a aplicação
+Run the application
 
 ```bash
 $ yarn start
@@ -136,20 +136,21 @@ $ yarn start
 
 ## :iphone: Front-end Mobile
 
-Entre na pasta
+Enter the folder
 ```bash
 $ cd mobile
 ```
 
-Rode a aplicação
+Run the application
 ```bash
 $ yarn start
 ```
 ---
 
 # :gear: How to contribute
-- Faça um fork desse repositório;
-- Crie uma branch com a sua feature: git checkout -b minha-feature;
-- Faça commit das suas alterações: git commit -m 'feat: Minha nova feature';
-- Faça push para a sua branch: git push origin minha-feature;
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
+
 ---
