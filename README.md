@@ -147,7 +147,7 @@ $ yarn start
 ```
 ---
 
-# :gear: Como contribuir 
+# :gear: How to contribute
 - Faça um fork desse repositório;
 - Crie uma branch com a sua feature: git checkout -b minha-feature;
 - Faça commit das suas alterações: git commit -m 'feat: Minha nova feature';
