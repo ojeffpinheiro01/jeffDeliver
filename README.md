@@ -1,4 +1,4 @@
-## [Leia esta página em português](https://github.com/ojeffoinheiro/jeffDeliver/blob/master/README-PT.md)
+## [Leia esta página em português](https://github.com/ojeffoinheiro/jeffDeliver/README-PT.md)
 <h1 align="center">
     <img alt="Happy" title="JeffDeliver" src="https://user-images.githubusercontent.com/60162736/104525364-c029d600-55de-11eb-8f29-106c7e9f6783.png">
    JeffDeliver
