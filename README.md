@@ -8,6 +8,7 @@
   <a href="#book-overview">Overview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#eye-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
   <a href="#computer-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+  <a href="#earth_americas-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
   <a href="#fire-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#gear-how-to-contribute">How to contribute</a>
 </p>
@@ -80,7 +81,7 @@ This project was developed with the following technologies:
 </details>
 ---
 
-# 🌎 Deploy
+# :earth_americas: Deploy
 ### Back-end: [Heroku](https://jeff-sds2.herokuapp.com)<br />
 ### Front-end WEB: [Netlify](https://jeffdeliver-sds2.netlify.app)<br />
 
