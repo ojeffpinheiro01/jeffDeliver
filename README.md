@@ -5,13 +5,12 @@
 </h1>
   
 <p align="center">
-  <a href="#overview-book">Overview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#technology-computer">Technology</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
-  <a href="#how-to-use-fire">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#how-to-contribute-gear">How to contribute</a>
+  <a href="#book-overview">Overview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#eye-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
+  <a href="#computer-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+  <a href="#fire-how-to-use">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#gear-how-to-contribute">How to contribute</a>
 </p>
-
-<a href="https://github.com/ojeffoinheiro/jeffDeliver/blob/master/README-PT.md">Leia esta página em português</a>
 
 # :book: Overview
  <p>
@@ -42,7 +41,7 @@
 ---
 
 
-# Technologies :computer:
+# :computer: Technologies
 This project was developed with the following technologies:
 <details>
   <summary>Frontend Web</summary>
