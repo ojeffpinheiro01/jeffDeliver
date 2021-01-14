@@ -78,14 +78,21 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 - [Typescript](https://typescriptlang.org/)
 - [Postgres](https://www.postgresql.org)
 - [Sprint Boot](https://spring.io/projects/spring-boot)
+- [Maven](https://maven.apache.org)
 </details>
 ---
+
+🌎 Implantação em produção
+Back-end: [Heroku](https://jeff-sds2.herokuapp.com)<br />
+Front-end WEB: Netlify
 
 # :fire: Como usar
 ## :white_flag: Condições prévias
 Você precisa ter instalado:
 
 - NodeJS
+- JAVA 11
+-Expo
 - Package manager (NPM ou Yarn)
 
 ## 💾 Clone esse repositório
