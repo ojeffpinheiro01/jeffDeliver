@@ -82,7 +82,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 </details>
 ---
 
-🌎 Implantação em produção
+# 🌎 Implantação em produção
 Back-end: [Heroku](https://jeff-sds2.herokuapp.com)<br />
 Front-end WEB: [Netlify](https://jeffdeliver-sds2.netlify.app)<br />
 
