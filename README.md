@@ -80,7 +80,7 @@ This project was developed with the following technologies:
 </details>
 ---
 
-#🌎 Deploy
+# 🌎 Deploy
 ## Back-end: [Heroku](https://jeff-sds2.herokuapp.com)<br />
 ## Front-end WEB: [Netlify](https://jeffdeliver-sds2.netlify.app)<br />
 
