@@ -81,8 +81,8 @@ This project was developed with the following technologies:
 ---
 
 # 🌎 Deploy
-## Back-end: [Heroku](https://jeff-sds2.herokuapp.com)<br />
-## Front-end WEB: [Netlify](https://jeffdeliver-sds2.netlify.app)<br />
+### Back-end: [Heroku](https://jeff-sds2.herokuapp.com)<br />
+### Front-end WEB: [Netlify](https://jeffdeliver-sds2.netlify.app)<br />
 
 # :fire: How to use
 ## :white_flag: Precondition
