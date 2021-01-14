@@ -5,6 +5,14 @@
    JeffDeliver
 </h1>
 
+<p align="center">
+  <a href="#book-sobre-o-projeto">Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#eye-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
+  <a href="#computer-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+  <a href="#fire-como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#gear-como-contribuir">Como contribuir</a>
+</p>
+
 # :book: Sobre o projeto
  <p>
   O aplicativo <strong> JeffDeliver </strong> foi desenvolvido durante a 2ª edição da DevSuperior Week (#SDS2), evento organizado pela <a href="https://devsuperior.com.br">DevSuperior</a>
@@ -34,7 +42,7 @@
 ---
 
 
-# Technologies :computer:
+# :computer: Tecnologias
 Este projeto foi desenvolvido com as seguintes tecnologias:
 <details>
   <summary>Frontend Web</summary>
