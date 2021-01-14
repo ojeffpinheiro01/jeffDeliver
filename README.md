@@ -14,17 +14,17 @@
 
 # :book: Overview
  <p>
-  O aplicativo <strong> JeffDeliver </strong> foi desenvolvido durante a 2ª edição da DevSuperior Week (# sds2), evento organizado pela <a href="https://devsuperior.com.br">DevSuperior</a>
-  O mesmo foi construido com o objetivo de facilitar o pedido e entrega. A solicitação do pedido é feita via web e o entregador recebe as informações via um app mobile.
+ The <strong> JeffDeliver </strong> application was developed during the 2nd edition of DevSuperior Week (# sds2), an event organized by <a href="https://devsuperior.com.br"> DevSuperior </a>
+   It was built to facilitate ordering and delivery. The order request is made via the web and the delivery person receives the information via a mobile app.
 </p>
 
 # :eye: Preview
 ## :desktop_computer: Web
 <p>
   <img src="https://user-images.githubusercontent.com/60162736/104526969-70e5a480-55e2-11eb-90ab-b40337fab38c.png" alt="JeffDeliver Web" width="750px"><br />
-  <p align="center">Página inicial</p>
+  <p align="center">Home page</p>
   <img src="https://user-images.githubusercontent.com/60162736/104528303-a8098500-55e5-11eb-8887-9c71ec3a1d7b.png" alt="JeffDeliver Web" width="750px"><br />
-  <p align="center">Página de pedidos</p>
+  <p align="center">Order page</p>
 </p>
 
 ## :iphone: Mobile 
@@ -35,7 +35,7 @@
 </p>
 
 <p>
-      O layout foi desenvolvido por <a href="https://github.com/washingtonsoares">Washington Soares</a>, você pode acessar a figma <a href="https://www.figma.com/file/LAIvIzyaJsSl2A9NMrnR7W/?viewer=1&node-id=">aqui</a>
+     The layout was developed by <a href="https://github.com/washingtonsoares"> Washington Soares </a>, you can access figma <a href = "https://www.figma.com/file/ LAIvIzyaJsSl2A9NMrnR7W /? Viewer = 1 & node-id = "> here </a>
    </p>
 
 ---
