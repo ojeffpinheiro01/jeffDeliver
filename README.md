@@ -3,6 +3,8 @@
    JeffDeliver
 </h1>
 
+## [Leia esta página em português](https://github.com/ojeffoinheiro/task/blob/master/README-PT.md)
+
 # :book: Overview
  <p>
   O aplicativo <strong> JeffDeliver </strong> foi desenvolvido durante a 2ª edição da DevSuperior Week (# sds2), evento organizado pela <a href="https://devsuperior.com.br">DevSuperior</a>
