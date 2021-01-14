@@ -80,7 +80,7 @@ This project was developed with the following technologies:
 </details>
 ---
 
-# :fire: Como usar
+# :fire: How to use
 ## :white_flag: Condições prévias
 Você precisa ter instalado:
 
