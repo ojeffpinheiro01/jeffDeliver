@@ -1,7 +1,16 @@
+## [Leia esta página em português](https://github.com/ojeffoinheiro/jeffDeliver/blob/master/README-PT.md)
 <h1 align="center">
     <img alt="Happy" title="JeffDeliver" src="https://user-images.githubusercontent.com/60162736/104525364-c029d600-55de-11eb-8f29-106c7e9f6783.png">
    JeffDeliver
 </h1>
+  
+<p align="center">
+  <a href="#overview-book">Overview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technology-computer">Technology</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
+  <a href="#how-to-use-fire">How to use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#how-to-contribute-gear">How to contribute</a>
+</p>
+
 <a href="https://github.com/ojeffoinheiro/jeffDeliver/blob/master/README-PT.md">Leia esta página em português</a>
 
 # :book: Overview
