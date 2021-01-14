@@ -14,7 +14,7 @@
 
 # :book: Overview
  <p>
- The <strong> JeffDeliver </strong> application was developed during the 2nd edition of DevSuperior Week (# sds2), an event organized by <a href="https://devsuperior.com.br"> DevSuperior </a>
+ The <strong> JeffDeliver </strong> application was developed during the 2nd edition of DevSuperior Week (#SDS2), an event organized by <a href="https://devsuperior.com.br"> DevSuperior </a>
    It was built to facilitate ordering and delivery. The order request is made via the web and the delivery person receives the information via a mobile app.
 </p>
 
