@@ -5,7 +5,7 @@
    JeffDeliver
 </h1>
 
-# :book: Overview
+# :book: Sobre o projeto
  <p>
   O aplicativo <strong> JeffDeliver </strong> foi desenvolvido durante a 2ª edição da DevSuperior Week (# sds2), evento organizado pela <a href="https://devsuperior.com.br">DevSuperior</a>
   O mesmo foi construido com o objetivo de facilitar o pedido e entrega. A solicitação do pedido é feita via web e o entregador recebe as informações via um app mobile.
@@ -35,7 +35,7 @@
 
 
 # Technologies :computer:
-This project was developed with the following technologies:
+Este projeto foi desenvolvido com as seguintes tecnologias:
 <details>
   <summary>Frontend Web</summary>
 
